@@ -2,7 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
     }
+
+    /* google font */
+    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500&display=swap');
+
 
     header {
     display: flex;
@@ -13,7 +18,7 @@
     padding: 14px 10px; 
      }
 
-     header .Logo {
+      header .Logo {
       font-size: 9px;
       margin-right: 250px;
       margin-left: 100px;
@@ -28,15 +33,15 @@
        nav ul {
         display: flex;
         align-items: center;
-        column-gap: 40px;
+        column-gap: 35px;
         border-right: 1px solid rgb(245, 233, 233);
         padding: 5px 20px 5px 0px;
-        margin-left: 10px;
         }
 
           nav ul li {
             list-style: none;
-            width: 59px;
+            width: 60px;
+            font-size: 15px;
             }
 
           nav .Contact {
@@ -55,7 +60,7 @@
             margin-left: 10px;
              }
 
-          main {
+            main {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -64,14 +69,13 @@
             margin-left: 160px;
             }
          
-            main .container {
+          main .container {
                 display: flex;
                 width: 100%;
                 height: 80%;
-                
-                }
+              }
 
-                main .container .left {
+          main .container .left {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
@@ -81,7 +85,7 @@
                 height: 100%;
                 }
 
-                main .container .left .Service-button {
+          main .container .left .Service-button {
                    background-color: #FF6433; 
                     color: white;  
                     width: 30%; 
@@ -91,7 +95,7 @@
                     border-radius: 10px 10px 10px 10px;
                 }
                 
-                main .container .left .left-Business-Schedule {
+           main .container .left .left-Business-Schedule {
                   display: flex;
                   flex-direction: row;
                   gap: 10px;
@@ -116,7 +120,7 @@
             }
 
             main .container .right {
-            width: 50%;
+            width: 40%;
             height: 100%;
             margin-left: 15px;
             margin-right: 45px;
@@ -126,7 +130,7 @@
             background-repeat: no-repeat;
             }
 
-            main .container .right .Service {
+           main .container .right .Service {
             position: absolute;
             margin-left: -60px;
             }
@@ -136,5 +140,480 @@
            margin-top: 300px;
            margin-left: 274px;
            }
+
+
+/* Global Styling */
+
+     .first-section-container {
+            display: flex;
+            height: 80%;
+            width: 100%;
+            padding-bottom: 60px;
+            background-color: #e2e6e9;
+          } 
+
+          .parent-flex {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            height: 70%;
+            width: 100%;
+          }
+
+   /* End Global Styling */
+
+
+/* main styling */
+
+          .first-section-container .car-servicing-left-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 40px;
+            margin-left: 18%;
+            }
+
+         .first-section-container .car-servicing-left-container h1 {
+            width: 50%;  
+            margin-top: 20px;
+            margin-left: 2px;
+          }
+
+          .first-section-container .service-benefits {
+                  display: flex;
+                  flex-direction: column;
+                  gap: 10px;
+                  margin-top: 10px;
+                 }
+
+          .first-section-container .car-servicing-left-container .convenient-service {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            gap: 10px;
+           }
+
+          
+          .first-section-container .convenient-service-text {
+            display: flex;
+            flex-direction: column; 
+             }
+
+
+          .first-section-container .convenient-service-text p {
+            font-size: 11px;
+            color: gray; 
+            width: 45%;
+          }
+
+
+          .first-section-container .car-servicing-left-container .Expert-mechanics {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            gap: 10px;
+           }
+
+          
+          .first-section-container .Expert-mechanics-text {
+            display: flex;
+            flex-direction: column; 
+          }
+            
+
+          .first-section-container .Expert-mechanics-text p {
+            font-size: 11px;
+            color: gray; 
+            width: 45%;
+          }
+
+  
+          .first-section-container .car-servicing-left-container .Transparent-pricing {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+            gap: 10px;
+           }
+
+
+           .first-section-container .Transparent-pricing-text {
+            display: flex;
+            flex-direction: column; 
+           }
+
+
+
+            .first-section-container .Transparent-pricing-text p {
+              font-size: 11px;
+              color: gray; 
+              width: 45%; 
+          }
+
+
+          .first-section-container .Know-us {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            margin-top: 20px;
+            margin-left: 10%;
+            margin-bottom: 10px;
+           }
+
+          
+           .first-section-container .car-servicing-right-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px; 
+            margin-top: 40px; 
+            margin-right: 20%;
+            margin-left: 10%;
+           }
+
+
+           .first-section-container .car-servicing-right-container h2 {
+            width: 60%;  
+            margin-top: 20px;
+            margin-left: 1px;
+            margin-bottom: 20px;
+           }
+
+
+           .first-section-container .car-servicing-right-container .client-details {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            } 
+
+
+           .first-section-container .Get-a-quote {
+               background-color: #FF6433; 
+               color: white;  
+               width: 120px; 
+               height: 40px;
+               margin-top: 5%;
+               font-size: 12px;
+               border-radius: 10px 10px 10px 10px;
+               }
+
+           input {
+            height: 4%; 
+            width: 108%; 
+            border-style: none; 
+            margin-top: 0px;
+            padding: 20px;
+            } 
+
+          .operations-section-container {
+              display: flex;
+              flex-direction: row;
+              height: 80%;
+              width: 100%; 
+            } 
+
+         .operations-left-container {
+              display: flex;
+              flex-direction: column;
+              gap: 10px;
+              margin-top: 40px;
+              margin-left: 18%;
+             } 
+
+          .operations-left-container h1 {
+              width: 40%;  
+              margin-top: 70px;
+              margin-bottom: 8px;
+              }
+
+          .operations-left-container p {
+              font-size: 11px;
+              color: gray; 
+              width: 45%; 
+             } 
+
+          .operations-left-container .learn-more {
+              background-color: #FF6433; 
+              color: white;  
+              width: 100px; 
+              height: 40px;
+              font-size: 12px; 
+              margin-top: 10px;
+              border-radius: 10px 10px 10px 10px;
+              }
+
+          .operations-right-container {
+                display: flex;
+                flex-direction: column;
+                width: 40%;
+                gap: 10px;
+                margin-top: 40px;
+                margin-left: 10%;
+               } 
+
+         .operations-right-container p {
+                font-size: 11px;
+                color: gray; 
+                width: 45%; 
+                margin-right: 80px; 
+                padding-left: 10px;
+                padding-right: 90px;
+               } 
+
+
+        .operations-right-container .Quote {
+                display: flex;
+                flex-direction: row;
+                gap: 15px;
+                margin-top: 10px;
+                margin-left: 1px;
+               } 
+
+        .operations-right-container .Appointment {
+                display: flex;
+                flex-direction: row;
+                gap: 15px;
+                margin-top: 10px;
+                margin-left: 1px;
+               } 
+      
+        .operations-right-container .Get-service {
+                display: flex;
+                flex-direction: row;
+                gap: 15px;
+                margin-top: 10px;
+                margin-left: 1px;
+               } 
+
+       .what-we-offer-container {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                height: 70%; 
+                width: 100%;
+                margin-top: 10px;
+                margin-bottom: 5%;
+                margin-left: 10px;
+                background-color: #F2F2F2; 
+                padding: 10px;
+              } 
+
+      .what-we-offer-container .offer-cards {
+              display: flex;
+              flex-wrap: wrap; 
+              flex-direction: row;
+              justify-content: center; 
+              gap: 5px;
+              margin-left: 25%;
+              height: 10%; 
+              width: 50%;
+              }
+              
+      .what-we-offer-container .offer-cards .card {
+                display: flex;
+                flex-direction: row;
+                background-color: white; 
+                gap: 5px;
+                margin-top: 30px;
+                height: 100px;
+                width: 150px;
+                }
+                
+      .what-we-offer-container .offer-cards .card .card-items p {
+                  text-align: center; 
+                  margin-left: 10%;
+                  font-size: 10px;
+                }
+  
+      .what-we-offer-container .offer-cards .card .card-one-items {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  padding: 20px;
+                  width: 30%; 
+                  margin-left: 9%;  
+                  gap: 3px;
+                 }
+
+      .what-we-offer-container .offer-cards .card .card-one-items img {
+                  margin-left: 400%;
+                }
+
+     .what-we-offer-container .offer-cards .card .card-two-items {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  padding: 0px;
+                  gap: 3px;
+                 }
+
+   .what-we-offer-container .offer-cards .card .card-two-items img {
+                  margin-left: 40%;
+                }
+
+   .what-we-offer-container .offer-cards .card .card-three-items {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  padding: 10px;
+                  width: 70%; 
+                  margin-left: 10%; 
+                  margin-right: 800px; 
+                  gap: 3px;
+                 }
+
+  .what-we-offer-container .offer-cards .card .card-three-items img {
+                  margin-left: 40%;
+                }
+                
+ .what-we-offer-container .offer-cards .card .card-four-items {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  padding: 0px;
+                  width: 70%; 
+                  margin-left: 15%; 
+                  gap: 3px;
+                 }
+          
+ .what-we-offer-container .offer-cards .card .card-four-items img {
+                  margin-left: 30%;
+                }
+                  
+ .what-we-offer-container .offer-cards .card .card-five-items {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  padding: 0px;
+                  width: 70%; 
+                  margin-left: 15%; 
+                  gap: 3px;
+                 }
+
+ .what-we-offer-container .offer-cards .card .card-five-items img {
+                  margin-left: 40%;
+                }
+            
+ .what-we-offer-container .offer-cards .card .card-six-items {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  padding: 0px;
+                  width: 70%; 
+                  margin-left: 15%; 
+                  gap: 3px;
+                 }
+
+.what-we-offer-container .offer-cards .card .card-six-items img {
+                  margin-left: 30%;
+                }
+                
+ .what-we-offer-container .offer-cards .card .card-seven-items {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  padding: 0px;
+                  width: 70%; 
+                  margin-left: 15%; 
+                  gap: 3px;
+                 }
+
+ .what-we-offer-container .offer-cards .card .card-seven-items img {
+                  margin-left: 30%;
+                }
+
+ .what-we-offer-container .offer-cards .card .card-eight-items {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  padding: 0px;
+                  width: 70%; 
+                  margin-left: 10%; 
+                  gap: 3px;
+                 }
+
+   .what-we-offer-container .offer-cards .card .card-eight-items img {
+                  margin-left: 40%;
+                }
+                    
+   .what-we-offer-container .About-services {
+                  display: flex;
+                  flex-direction: row;
+                  align-items: end;
+                  margin-left: 76%;
+                  margin-top: 8px;
+                  gap: 5px;
+                  width: 200px;
+                } 
+      
+            .car-section-container {
+                  display: flex;
+                  flex-direction: row;
+                  height: 300px;  
+                  width: 100%;
+                  margin-bottom: 10px;
+                } 
+               
+           .car-section-left-container {
+                  background-image: url(./Imgs/Car\ Image.png);
+                  background-position: center;
+                  background-repeat: no-repeat;
+                  background-size: cover;
+                  width: 30%;
+                  height: 280px;  
+                } 
+
+
+           .car-section-left-container .card {
+                    color: white;
+                    background-color: #FF6433; 
+                    position: absolute;
+                    width: 30%;
+                    height: 280px;
+                    margin-left: 10%;
+                   } 
+
+           .car-section-container .car-section-contact {
+                    background-color: black; 
+                    color: white;  
+                    width: 70px; 
+                    height: 30px;
+                    font-size: 10px; 
+                    margin-top: 30px;
+                    margin-left: 15%;
+                    margin-bottom: 20px;
+                    border-radius: 5px 5px 5px 5px;
+                    }
+
+           .car-section-right-container {
+                    display: flex;
+                    background-image: url(./Imgs/Car\ tools.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 70%;
+                    height: 280px;
+                  } 
+
+            
+           .values .container {
+                display: flex;
+                flex-direction: row;
+                height: 90px;
+                width: 100%; 
+                margin-top: 0px;
+                margin-bottom: 10px;
+                background-color: gainsboro;
+                gap: 10%;
+                align-items: center;
+                justify-content: center;
+              } 
+              
+            .values .container img {
+                width: 40%;
+                margin-left: 2%;
+              } 
+              
+
+
+
 
 
