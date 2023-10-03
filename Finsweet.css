@@ -582,6 +582,9 @@
                   background-size: cover;
                   width: 30%;
                   height: 280px;  
+                  /* display: flex;
+                  justify-content: flex-end;
+                  position: relative; */
                 } 
 
 
@@ -592,6 +595,7 @@
                     width: 30%;
                     height: 280px;
                     margin-left: 10%;
+                    /* right: 0; */
                    } 
 
                    .car-section-left-container .card p {
@@ -645,7 +649,7 @@
 
 /* Styling for mobile screen  */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
 
 
    header {
@@ -662,7 +666,7 @@
       header .Logo {
       font-size: 8px;
       margin-right: 250px;
-      margin-left: 280px;
+      margin-left: 310px;
      }
 
 
@@ -678,7 +682,7 @@
         align-items: center;
         border-style: none;
         column-gap: 0px;
-        margin-left: 60px;
+        margin-left: 100px;
         margin-top: 10px;
         }
 
@@ -693,7 +697,7 @@
             align-items: center;
             margin-top: 10px;
             margin-bottom: 10px;
-            margin-left: 350px;
+            margin-left: 380px;
             margin-right: 150px;
             }
 
@@ -783,7 +787,8 @@
             main .container .right {
             width: 90%;
             height: 90%;
-            margin-top: 20px;
+            margin-left: -1%;
+            padding: 50px;
             background-position: center;
             background-size: cover;
             background-image: url('./Imgs/Image.png');
@@ -793,14 +798,15 @@
            main .container .right .Service {
             position: absolute;
             height: 150px;
-            margin-left: -70px;
+            margin-left: -110px;
+            margin-top: -20px;
             }
 
            main .container .right .Rating {
            position: absolute;
            height: 150px;
-           margin-top: 350px;
-           margin-left: 165px;
+           margin-top: 320px;
+           margin-left: 110px;
            }
 
         .first-section-container {
@@ -987,7 +993,7 @@
         width: 100%;
         margin-top: 15px;
         margin-bottom: 5%;
-        margin-left: 20%;
+        margin-left: 15%;
         background-color: #F2F2F2; 
         padding: 5px;
       } 
@@ -1267,7 +1273,7 @@ margin-left: 2%;
       header .Logo {
       font-size: 15px;
       margin-right: 250px;
-      margin-left: 350px;
+      margin-left: 400px;
      }
 
      nav {
@@ -1282,7 +1288,7 @@ margin-left: 2%;
         align-items: center;
         border-style: none;
         column-gap: 0px;
-        margin-left: 150px;
+        margin-left: 180px;
         margin-top: 10px;
         }
 
@@ -1297,7 +1303,7 @@ margin-left: 2%;
             align-items: center;
             margin-top: 20px;
             margin-bottom: 10px;
-            margin-left: 400px;
+            margin-left: 450px;
             }
 
             .Contact .Contact-icon img {
@@ -1318,7 +1324,7 @@ margin-left: 2%;
             justify-content: center;
             align-items: center;
             height: 80vh;
-            width: 70%;
+            width: 100%;
             margin-bottom: 20%;
             }
          
@@ -1334,15 +1340,14 @@ margin-left: 2%;
                 justify-content: center;
                 width: 100%;
                 height: 50vh;
-                margin-left: 2%;
+                margin-left: -8%;
                 }
 
                 main .container .left h1 {
-                  font-size: 25px;
+                  font-size: 40px;
                   text-align: center;
                   margin-top: 20%;
                   margin-left: 40px; 
-                  width: 200%;
                   height: 20%;
                   } 
                   
@@ -1351,9 +1356,8 @@ margin-left: 2%;
                    background-color: #FF6433; 
                     color: white;  
                     width: 120px; 
-                    height: 30px;
+                    height: 40px;
                     font-size: 15px; 
-                    margin-top: 8px;
                     margin-left: 35%;
                     border-radius: 10px 10px 10px 10px;
                 }
@@ -1384,10 +1388,10 @@ margin-left: 2%;
             }
 
             main .container .right {
-            width: 100%;
-            height: 700%;
+            width: 80%;
+            height: 100%;
             margin-top: 10px;
-            margin-left: 0px;
+            margin-left: -3%;
             background-position: center;
             background-size: cover;
             background-image: url('./Imgs/Image.png');
@@ -1406,16 +1410,16 @@ margin-left: 2%;
            position: absolute;
            height: 200px;
            width: 360px;
-           margin-top: 460px;
-           margin-left: 260px;
+           margin-top: 350px;
+           margin-left: 340px;
            }
 
         .first-section-container {
          display: flex;
          flex-direction: column;
          height: 80%;
-         width: 900%;
-         margin-left: 10%;
+         width: 100%;
+         margin-left: 15%;
          padding-bottom: 60px;
          background-color: #e2e6e9;
          } 
@@ -1511,7 +1515,7 @@ margin-left: 2%;
       height: 80%;
       width: 100%; 
       margin-left: 5%;
-      margin-top: 30px;
+      margin-top: 90px;
     } 
 
     .operations-section-container .operations-left-container h1 {
@@ -1599,9 +1603,10 @@ margin-left: 2%;
         text-align: center;
         height: 70%; 
         width: 100%;
-        margin-top: 15px;
-        margin-bottom: 5%;
-        margin-left: 100px;
+        /* padding: 10px; */
+        /* margin-top: 15px;
+        margin-bottom: 5%; */
+        margin-left: 10%;  
         background-color: #F2F2F2; 
         padding: 5px;
       } 
@@ -1614,7 +1619,7 @@ margin-left: 2%;
 
        .what-we-offer-container h1 {
           font-size: 12px;
-          margin-left: 16%;
+          margin-left: 15%;
           margin-top: 2px;
           width: 70%;
         }
