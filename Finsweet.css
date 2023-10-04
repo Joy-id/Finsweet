@@ -717,6 +717,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            overflow: hidden;
             height: 90vh;
             width: 100%;
             margin: auto;
@@ -818,8 +819,9 @@
          flex-direction: column;
          justify-content: center;
          height: 80%;
-         width: 120%;
-         margin-left: 25%;
+         width: 400%;
+         margin-left: 10%;
+         margin-right: -20%;
          padding-bottom: 60px;
          background-color: #e2e6e9;
          } 
@@ -830,14 +832,21 @@
          flex-direction: column;
          gap: 10px;
          margin-top: 40px;
-         margin-left: 18%;
+         margin-left: 1%;
          }
+
+
+         .first-section-container .car-servicing-left-container p {
+          display: flex;
+          flex-direction: column;
+          margin-left: 1%;
+          }
 
     .first-section-container .car-servicing-left-container h1 {
     width: 100%;
-    font-size: 18px;  
-    margin-top: 25px;
-    margin-right: 500px;
+    font-size: 17px;  
+    margin-top: 10px;
+    margin-left: 10px;
      }
 
   .first-section-container .service-benefits {
@@ -879,7 +888,7 @@
    .first-section-container .car-servicing-right-container h2 {
     width: 130%;  
     margin-left: -5%;
-    font-size: 20px;
+    font-size: 16px;
    }
 
 
@@ -912,6 +921,7 @@
   .operations-section-container {
       display: flex;
       flex-direction: column;
+      overflow: hidden;
       height: 80%;
       width: 100%; 
       margin-left: 8%;
@@ -995,6 +1005,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+        overflow: hidden;
         height: 70%; 
         width: 100%;
         margin-bottom: 5%;
